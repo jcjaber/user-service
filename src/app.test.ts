@@ -18,6 +18,9 @@ jest.mock('./controller/user-controller');
 
 describe('App tests', () => {
   test('should create and call setConfig method properly', () => {
+    //arrange
+    // faz tudo que precisa ser feito para preparar o teste
+
     // act
     new App();
 
